@@ -43,10 +43,15 @@ h2 {
 .whatIDo {
   border-radius: 13px;
   border: 2px solid #353535;
-  padding-top: 10px;
-  padding-right: 10px;
-  padding-left: 10px;
+  padding-top: 18px;
+  padding-right: 12px;
+  padding-left: 12px;
   margin-right: 10px;
+  margin-top: 10px;
+  font-size: 16px;
+}
+.what-i-do-text-padding {
+  padding-top: 24px;
 }
 .btn-primary {
   font-size: 20px;
@@ -67,4 +72,7 @@ h2 {
   border: none;
   box-shadow: none;
   outline-offset: 2px;
+}
+.claire-image {
+  max-width: 60%;
 }
