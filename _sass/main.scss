@@ -18,6 +18,9 @@ h2 {
   font-family: gyst-variable, sans-serif;
   font-variation-settings: "wght" 600;
 }
+a {
+  color:#eeeeec
+}
 .subtitle {
   color: #eeeeec;
   font-size: 45px;
@@ -38,6 +41,9 @@ h2 {
 .nav-link {
   color: #eeeeec;
   font-size: 20px;
+}
+.h2-col {
+    min-width: 200px;
 }
 
 .whatIDo {
