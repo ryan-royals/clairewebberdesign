@@ -31,7 +31,7 @@ h3 {
 }
 
 a {
-  color: #eeeeec
+  color: #eeeeec;
 }
 
 p {
@@ -127,8 +127,24 @@ p {
   font-variation-settings: "wght" 200;
 }
 .portfolio-year {
-  color: #55919B;
+  color: #55919b;
   font-size: 30px;
   font-family: gyst-variable, sans-serif;
   font-variation-settings: "wght" 400;
+}
+.portfolio-pill {
+  padding-left: 11px;
+  padding-right: 11px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background: #7abec1;
+  border-radius: 9px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  display: inline-flex;
+  font-size: 16px;
+  font-family: macha, sans-serif;
+  font-variation-settings: "wght" 400;
+  color: #1f1e1c;
 }
