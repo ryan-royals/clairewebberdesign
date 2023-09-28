@@ -120,6 +120,10 @@ p {
   --bs-border-color-translucent: none;
   --bs-card-inner-border-radius: none;
 }
+.portfolio-title {
+  font-size: 65px;
+
+}
 .portfolio-client {
   color: #eeeeec;
   font-size: 30px;
