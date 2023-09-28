@@ -37,7 +37,9 @@ a {
 p {
   padding-top: 6px;
 }
-
+.navbar-nav {
+  --bs-nav-link-hover-color: #7abec1;
+}
 .subtitle {
   color: #eeeeec;
   font-size: 45px;
@@ -122,7 +124,6 @@ p {
 }
 .portfolio-title {
   font-size: 65px;
-
 }
 .portfolio-client {
   color: #eeeeec;
