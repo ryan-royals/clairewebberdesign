@@ -120,3 +120,15 @@ p {
   --bs-border-color-translucent: none;
   --bs-card-inner-border-radius: none;
 }
+.portfolio-client {
+  color: #eeeeec;
+  font-size: 30px;
+  font-family: gyst-variable, sans-serif;
+  font-variation-settings: "wght" 200;
+}
+.portfolio-year {
+  color: #55919B;
+  font-size: 30px;
+  font-family: gyst-variable, sans-serif;
+  font-variation-settings: "wght" 400;
+}
