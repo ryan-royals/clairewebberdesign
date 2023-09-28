@@ -5,6 +5,7 @@ body {
   font-size: 18px;
   font-variation-settings: "wght" 400;
 }
+
 h1 {
   color: #eeeeec;
   font-size: 85px;
@@ -12,12 +13,14 @@ h1 {
   font-variation-settings: "wght" 600;
   word-wrap: break-word;
 }
+
 h2 {
   color: #7abec1;
   font-size: 30px;
   font-family: gyst-variable, sans-serif;
   font-variation-settings: "wght" 600;
 }
+
 h3 {
   color: #eeeeec;
   font-size: 18px;
@@ -26,18 +29,22 @@ h3 {
   text-decoration-line: underline;
   padding-top: 6px;
 }
+
 a {
-  color:#eeeeec
+  color: #eeeeec
 }
+
 p {
   padding-top: 6px;
 }
+
 .subtitle {
   color: #eeeeec;
   font-size: 45px;
   font-family: gyst-variable, sans-serif;
   font-variation-settings: "wght" 500;
 }
+
 .emphasis {
   color: #eeeeec;
   font-size: 20px;
@@ -53,9 +60,10 @@ p {
   color: #eeeeec;
   font-size: 20px;
 }
+
 .h2-col {
-    min-width: 200px;
-    max-width: 200px;
+  min-width: 200px;
+  max-width: 200px;
 }
 
 .what-i-do-box {
@@ -73,9 +81,11 @@ p {
   min-height: 140px;
   max-height: 140px;
 }
+
 .what-i-do-text-padding {
   padding-top: 24px;
 }
+
 .btn-primary {
   font-size: 20px;
   font-variation-settings: "wght" 500;
@@ -83,11 +93,13 @@ p {
   background-color: #eeeeec;
   border: none;
 }
+
 .btn:hover {
   color: #1f1e1c;
   background-color: #7abec1;
   border: none;
 }
+
 .btn:focus-visible {
   outline: 2px solid #eeeeec;
   color: #1f1e1c;
@@ -96,7 +108,15 @@ p {
   box-shadow: none;
   outline-offset: 2px;
 }
+
 .claire-image {
   max-width: 60%;
   max-height: 100%;
+}
+
+.card {
+  --bs-card-bg: none;
+  --bs-body-color: none;
+  --bs-border-color-translucent: none;
+  --bs-card-inner-border-radius: none;
 }
