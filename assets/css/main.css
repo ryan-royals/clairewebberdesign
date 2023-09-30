@@ -33,12 +33,27 @@ h3 {
 a {
   color: #eeeeec;
 }
+a:focus-visible {
+  outline: 2px solid #7abec1;
+  outline-offset: 2px;
+}
+a:hover {
+  color: #7abec1;
+}
 
 p {
   padding-top: 6px;
 }
+.card-title {
+  padding-top: 24px;
+}
 .navbar-nav {
   --bs-nav-link-hover-color: #7abec1;
+}
+.nav-link:focus-visible {
+  box-shadow: none;
+  outline: 2px solid #7abec1;
+  outline-offset: 2px;
 }
 .subtitle {
   color: #eeeeec;
